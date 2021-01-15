@@ -5,19 +5,19 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
-COPY ["InterestRateAPI/InterestRate.csproj", "InterestRate/"]
-COPY ["InterestRateAPI/InterestRateAPI.csproj", "InterestRateAPI/"]
-RUN dotnet restore "InterestRateAPI\InterestRateAPI.csproj"
-RUN dotnet restore "InterestRateAPI\InterestRate.csproj"
+COPY ["InterestRate/InterestRate.csproj", "InterestRate/"]
+COPY ["InterestRate.API/InterestRate.API.csproj", "InterestRate.API/"]
+RUN dotnet restore "InterestRate.API/InterestRate.API.csproj"
+RUN dotnet restore "InterestRate/InterestRate.csproj"
 
 COPY . .
-WORKDIR "/src/InterestRateAPI"
-RUN dotnet build "InterestRateAPI.csproj" -c Release -o /app/build
+WORKDIR "/src/InterestRate.API"
+RUN dotnet build "InterestRate.API.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "InterestRateAPI.csproj" -c Release -o /app/publish
+RUN dotnet publish "InterestRate.API.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "InterestRateAPI.dll"]
+ENTRYPOINT ["dotnet", "InterestRate.API.dll"]

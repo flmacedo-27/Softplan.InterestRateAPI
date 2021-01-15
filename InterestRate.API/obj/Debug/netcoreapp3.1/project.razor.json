@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Flavio\\source\\repos\\Softplan.InterestRate\\InterestRateAPI\\InterestRateAPI.csproj",
+  "FilePath": "c:\\Users\\Flavio\\source\\repos\\Softplan.InterestRate\\InterestRate.API\\InterestRate.API.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14389,7 +14389,7 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "InterestRateAPI",
+  "RootNamespace": "InterestRate.API",
   "Documents": [],
   "SerializationFormat": "0.2"
 }

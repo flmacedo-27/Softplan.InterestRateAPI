@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "60hJ8jYEGfSDbUkgEMdwIp7JUoKC3aBwR/pUgQos0VpAm2HbJZEAX/DufxJIcT3Q23WjdGGwsRKhD8r9QMe8zQ==",
+  "dgSpecHash": "4QlGA3XuCB88eErJqOG7jy84CiY9xWfsExjl3ky8yem+oxtjC2GEvmSxM196d7djSZ4U3R81lqBms4QosI+3QQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Flavio\\source\\repos\\Softplan.InterestRate\\InterestRateAPI\\InterestRateAPI.csproj",
+  "projectFilePath": "C:\\Users\\Flavio\\source\\repos\\Softplan.InterestRate\\InterestRate.API\\InterestRate.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Flavio\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
