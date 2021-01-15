@@ -1,0 +1,9 @@
+C:\Users\Flavio\source\repos\Softplan.InterestRate\InterestRate\bin\Debug\netstandard2.0\InterestRate.deps.json
+C:\Users\Flavio\source\repos\Softplan.InterestRate\InterestRate\bin\Debug\netstandard2.0\InterestRate.dll
+C:\Users\Flavio\source\repos\Softplan.InterestRate\InterestRate\obj\Debug\netstandard2.0\InterestRate.csprojAssemblyReference.cache
+C:\Users\Flavio\source\repos\Softplan.InterestRate\InterestRate\obj\Debug\netstandard2.0\InterestRate.AssemblyInfoInputs.cache
+C:\Users\Flavio\source\repos\Softplan.InterestRate\InterestRate\obj\Debug\netstandard2.0\InterestRate.AssemblyInfo.cs
+C:\Users\Flavio\source\repos\Softplan.InterestRate\InterestRate\obj\Debug\netstandard2.0\InterestRate.csproj.CoreCompileInputs.cache
+C:\Users\Flavio\source\repos\Softplan.InterestRate\InterestRate\bin\Debug\netstandard2.0\InterestRate.pdb
+C:\Users\Flavio\source\repos\Softplan.InterestRate\InterestRate\obj\Debug\netstandard2.0\InterestRate.dll
+C:\Users\Flavio\source\repos\Softplan.InterestRate\InterestRate\obj\Debug\netstandard2.0\InterestRate.pdb
